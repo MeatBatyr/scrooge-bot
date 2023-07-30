@@ -52,7 +52,7 @@ func main() {
 				excuteCalcCommand(bot, db, errorLogger, update.Message.Chat.ID, time.Now().AddDate(0, 0, -time.Now().Day()))
 			case "calc_week":
 				excuteCalcCommand(bot, db, errorLogger, update.Message.Chat.ID, time.Now().AddDate(0, 0, -7))
-			case "calc_mounth":
+			case "calc_month":
 				excuteCalcCommand(bot, db, errorLogger, update.Message.Chat.ID, time.Now().AddDate(0, 0, -30))
 			case "calc_quarter":
 				excuteCalcCommand(bot, db, errorLogger, update.Message.Chat.ID, time.Now().AddDate(0, 0, -90))
